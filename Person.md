@@ -22,8 +22,6 @@ let managersQuery = dv.pages('"people"')
     .filter(m => m !== null && m !== undefined)
     .map(m => typeof m === 'object' && m.hasOwnProperty('path') ? m.path.split("/").pop().replace(/\.md$/, "") : m);
 
-console.log('this is the managersQuery', managersQuery);
-
 // Remove duplicates
 let roles = [...new Set(rolesQuery)];
 let teams = [...new Set(teamsQuery)];
