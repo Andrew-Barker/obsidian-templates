@@ -25,7 +25,7 @@ tp.file.rename(`${formattedDate} -- ${person}`);
 
 ---
 ## ❓ Questions & Answers 
-- **Question 1**:
+1. **Question 1**
 ---
 
 
