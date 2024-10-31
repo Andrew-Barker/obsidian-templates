@@ -21,7 +21,7 @@ tp.file.move(`/meetings/1-1s/${formattedDate} -- ${person}`);
 
 **Date:** <% formattedDate %>  
 **Type:** <% meetingType %>  
-**Person:** [[<% person %>]]
+**Attendees:** [[<% person %>]]; [[Andrew Barker]]
 
 ---
 ## ❓ Questions & Answers 
