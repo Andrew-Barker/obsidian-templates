@@ -14,7 +14,7 @@ let meetingType = await tp.system.suggester(meetingTypeOptions, meetingTypeOptio
 
 // Set the title format: YYYY-MM-DD - [Person]
 let formattedDate = tp.date.now("YYYY-MM-DD");
-tp.file.rename(`${formattedDate} -- ${person}`);
+tp.file.move(`/meetings/1-1s/${formattedDate} -- ${person}`);
 %>
 
 # 1-1 Meeting with <% person %>

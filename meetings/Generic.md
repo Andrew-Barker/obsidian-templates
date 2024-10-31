@@ -38,7 +38,7 @@ while (continueAdding) {
 
 // Set the file name to include the subject and date
 let formattedDate = tp.date.now("YYYY-MM-DD");
-tp.file.rename(`${subject} - ${formattedDate}`);
+tp.file.move(`/meetings/${subject} - ${formattedDate}`);
 %>
 
 # <% subject %> - <% formattedDate %>

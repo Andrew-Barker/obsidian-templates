@@ -50,6 +50,8 @@ if (manager === "Add New Manager") {
 let role_tag = role.replace(/\s+/g, '-').toLowerCase();
 let team_tag = team.replace(/\s+/g, '-').toLowerCase();
 let manager_tag = manager.replace(/\s+/g, '-').toLowerCase();
+
+tp.file.move(`/people/${tp.file.title}`)
 %>
 
 > [!tldr] <% tp.file.title %>
