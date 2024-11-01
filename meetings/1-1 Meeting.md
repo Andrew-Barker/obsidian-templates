@@ -28,9 +28,16 @@ tp.file.move(`/meetings/1-1s/${formattedDate} -- ${person}`);
 1. **Question 1**
 ---
 
+## 💻 Status Updates
+- 
+
+---
 
 ## 📝 Meeting Notes
 Summary:
+
+
+---
 
 ## 📌 Action Items
 - [ ] 
