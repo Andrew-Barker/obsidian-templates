@@ -16,15 +16,18 @@ tp.file.move(`/dictionary/terms/${term}`);
 ---
 
 ## 📖 Definition
-- 
+
 
 ## 📝 Context of Use
 - **Example 1**: 
 - **Example 2**: 
 
 ## 🔗 Related Terms
-- Term 1: 
-- Term 2: 
+```dataview
+list from "dictionary/terms"
+where contains(file.tags, "#<% categoryTag %>")
+sort file.name asc
+```
 
 ## 📚 Sources or References
 - [Confluence Page](URL)
