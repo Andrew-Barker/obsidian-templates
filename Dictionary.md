@@ -1,8 +1,8 @@
 <%*
 let term = await tp.system.prompt("Enter the Term or Acronym");
-let categoryOptions = ["EDI", "Software", "Logistics", "Other"];
+let categoryOptions = ["EDI", "Boomi", "Software", "Logistics", "Other"];
 let category = await tp.system.suggester(categoryOptions, categoryOptions);
-let categoryTag = category.toLowerCase().replace(/\s+/g, '-');  // Convert category to lowercase and hyphenated format
+let categoryTag = category.replace(/\s+/g, '-');  // Convert category to lowercase and hyphenated format
 
 tp.file.move(`/dictionary/terms/${term}`);
 %>
