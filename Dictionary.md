@@ -17,6 +17,9 @@ tp.file.move(`/dictionary/terms/${term}`);
 
 ## 📖 Definition
 
+> [!term] Title
+> Contents
+
 
 ## 📝 Context of Use
 - **Example 1**: 
